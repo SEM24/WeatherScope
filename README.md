@@ -11,6 +11,9 @@ A Spring Boot REST API application for fetching, storing, and analyzing weather 
 - Maven / Gradle
 - Lombok
 - Jakarta Validation
+- Docker
+- Prometheus
+- Grafana
 
 ## Features
 
@@ -19,6 +22,7 @@ A Spring Boot REST API application for fetching, storing, and analyzing weather 
 - Calculate average temperature over specified periods
 - Retrieve weather trends and historical data
 - RESTful API endpoints with validation
+- Analize metrics using Grafana and Prometheus
 
 ## Prerequisites
 
@@ -201,6 +205,34 @@ curl http://localhost:8080/history/London
   ...
 ]
 ```
+## Grafana Monitoring
+
+The project includes **Grafana** for visualizing application metrics collected by Prometheus.
+
+### Access Grafana
+
+Grafana is available at:
+`http://localhost:3000/`
+
+### Default credentials
+Login: admin
+
+Password: admin
+
+
+### Dashboard
+
+A Grafana dashboard is available with the following metrics:
+- HTTP request rate and latency
+- Error rate
+- JVM memory usage and GC
+- Database connection pool metrics
+
+### Screenshot
+<img width="2516" height="1177" alt="image" src="https://github.com/user-attachments/assets/b579faa5-86d1-4360-810e-c3fe88a581ea" />
+
+<img width="2520" height="1287" alt="image" src="https://github.com/user-attachments/assets/6d657550-7aee-425c-b021-cb7a70a0125a" />
+
 
 ## CORS Configuration
 
