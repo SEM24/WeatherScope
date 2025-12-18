@@ -31,7 +31,7 @@ A Spring Boot REST API application for fetching, storing, and analyzing weather 
 ### 1. Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/SEM24/WeatherScope.git
 cd weatherscope-backend
 ```
 
