@@ -106,10 +106,7 @@ Locally preview the production build.
 
 Search for weather data by city name and view current conditions.
 
-**Screenshot placeholder:**
-```
-
-```
+<img width="1231" height="1148" alt="image" src="https://github.com/user-attachments/assets/cac5ca51-59c5-4296-8bc9-889c027cad94" />
 
 Features:
 - City name search with autocomplete
@@ -121,10 +118,7 @@ Features:
 
 Visualize weather patterns over selected time periods.
 
-**Screenshot placeholder:**
-```
-[Trends page with interactive chart]
-```
+<img width="1869" height="1217" alt="image" src="https://github.com/user-attachments/assets/d754e921-fa90-40e7-84e8-d055f271948e" />
 
 Features:
 - Period selection (7, 14, 30, 90 days)
@@ -136,10 +130,7 @@ Features:
 
 Browse complete weather records in table format.
 
-**Screenshot placeholder:**
-```
-[History page with data table]
-```
+<img width="1667" height="1161" alt="image" src="https://github.com/user-attachments/assets/04d01891-344d-43b2-a167-2487f37cd16e" />
 
 Features:
 - Chronological weather records
